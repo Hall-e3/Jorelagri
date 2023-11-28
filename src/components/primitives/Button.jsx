@@ -12,7 +12,7 @@ export default function Button({
     <button
       disabled={disabled}
       type={type}
-      className={`${buttonStyle} text-sm`}
+      className={`${buttonStyle} `}
       onClick={onClick}
     >
       <div className="flex items-center space-x-4 justify-center">
