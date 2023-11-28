@@ -99,6 +99,9 @@ module.exports = withMT({
       ...defaultTheme.screens,
     },
     extend: {
+      backgroundImage: {
+        background1: "url('/src/assets/images/careers-banner-b.png')",
+      },
       fontSize: {
         "title-xxl": ["44px", "55px"],
         "title-xl": ["36px", "45px"],
