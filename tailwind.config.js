@@ -102,6 +102,7 @@ module.exports = withMT({
       backgroundImage: {
         background1: "url('/src/assets/images/careers-banner-b.png')",
         background2: "url('/src/assets/images/large-rice-harvester.webp')",
+        background3: "url('/src/assets/images/background-card-clouds.webp')",
       },
       fontSize: {
         "title-xxl": ["44px", "55px"],
