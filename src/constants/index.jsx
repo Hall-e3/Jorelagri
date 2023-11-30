@@ -5,9 +5,11 @@ const talk = require("../assets/images/talk-to-us-icon.png");
 const careers_banner = require("../assets/images/careers-banner-b.png");
 const featured1 = require("../assets/images/featured-news-thumbnail.jpg");
 const work = require("../assets/images/work-freedom.jpg");
+const our_organization = require("../assets/images/our-reorganisation.jpg");
 const featured2 = require("../assets/images/cotton-gin-cdi-thumbnail.jpg");
 const featured5 = require("../assets/images/idrw-2023-thumbnail.jpg");
 const cotton_american = require("../assets/images/cotton-america.jpg");
+const grow_source = require("../assets/images/grow-source.jpg");
 const laboratory = require("../assets/images/laboratory.jpg");
 const featured3 = require("../assets/images/nutrifoods-support-akosombo-thumbnail.jpg");
 const featured4 = require("../assets/images/reduce-crop-loss-thumbnail.jpg");
@@ -94,4 +96,6 @@ export {
   work,
   cotton_american,
   laboratory,
+  grow_source,
+  our_organization,
 };

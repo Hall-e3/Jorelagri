@@ -109,7 +109,7 @@ export default function News() {
           <picture>
             <img
               src={image1}
-              alt="image"
+              alt="image2"
               className="w-full h-full bg-contain"
             />
           </picture>
