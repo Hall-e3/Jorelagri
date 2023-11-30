@@ -9,6 +9,7 @@ import SecondaryFooter from "./global/SecondaryFooter";
 import ServiceProducts from "./global/ServiceProducts";
 import Navbar from "./global/Navbar";
 import Hero from "./global/Hero";
+import Input from "./primitives/Input";
 export {
   Loader,
   Spinner,
@@ -20,5 +21,6 @@ export {
   SecondaryFooter,
   ServiceProducts,
   Navbar,
+  Input,
   Hero,
 };
