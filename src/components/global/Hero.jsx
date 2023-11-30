@@ -24,10 +24,10 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex items-center space-x-3 absolute bottom-22">
-          <div className="p-2 border rounded-full border-white"></div>
-          <div className="p-2 border rounded-full border-white"></div>
-          <div className="p-2 border rounded-full border-white"></div>
-          <div className="p-2 border rounded-full border-white"></div>
+          <div className="p-1.5 border-2  rounded-full border-white"></div>
+          <div className="p-1.5 border-2  rounded-full border-white"></div>
+          <div className="p-1.5 border-2  rounded-full border-white"></div>
+          <div className="p-1.5 border-2  rounded-full border-white"></div>
         </div>
       </div>
       <div className="flex-1">

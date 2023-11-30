@@ -4,8 +4,11 @@ const large_rice = require("../assets/images/large-rice-harvester.webp");
 const talk = require("../assets/images/talk-to-us-icon.png");
 const careers_banner = require("../assets/images/careers-banner-b.png");
 const featured1 = require("../assets/images/featured-news-thumbnail.jpg");
+const work = require("../assets/images/work-freedom.jpg");
 const featured2 = require("../assets/images/cotton-gin-cdi-thumbnail.jpg");
 const featured5 = require("../assets/images/idrw-2023-thumbnail.jpg");
+const cotton_american = require("../assets/images/cotton-america.jpg");
+const laboratory = require("../assets/images/laboratory.jpg");
 const featured3 = require("../assets/images/nutrifoods-support-akosombo-thumbnail.jpg");
 const featured4 = require("../assets/images/reduce-crop-loss-thumbnail.jpg");
 const linkedin = require("../assets/images/linkedin.svg");
@@ -88,4 +91,7 @@ export {
   image7,
   image8,
   image9,
+  work,
+  cotton_american,
+  laboratory,
 };

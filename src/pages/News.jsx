@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer, Input, Navbar } from "../components";
-import { image1 } from "../constants";
+import { featured1, featured2, image1 } from "../constants";
 import { featured5, featured3, featured4 } from "../constants";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 const data = [
@@ -54,14 +54,14 @@ const allNews = [
     date: "09 November 2023 | News",
     title: "Supporting Akosombo Flood victims",
     subtitle: "Corporate / Sustainability",
-    image: featured3,
+    image: featured2,
   },
   {
     id: 5,
     date: "13 October 2023 | News",
     title: "Bridging the Gap for Gender Equity in Agriculture",
     subtitle: "Sustainability",
-    image: featured5,
+    image: featured1,
   },
   {
     id: 6,
@@ -197,7 +197,7 @@ export default function News() {
                           <p className="text-black text-sm font-light">
                             {item.date}
                           </p>
-                          <h6 className="text-black font-semibold text-3xl">
+                          <h6 className="text-black font-semibold text-2xl">
                             {item.title}
                           </h6>
                           <p className="text-[#2e2d2c] font-medium text-sm">
@@ -227,7 +227,7 @@ export default function News() {
                           <p className="text-black text-sm font-light">
                             {item.date}
                           </p>
-                          <h6 className="text-black font-semibold text-3xl">
+                          <h6 className="text-black font-semibold text-2xl">
                             {item.title}
                           </h6>
                           <p className="text-[#2e2d2c] font-medium text-sm">
@@ -264,7 +264,7 @@ export default function News() {
                           <p className="text-black text-sm font-light">
                             {item.date}
                           </p>
-                          <h6 className="text-black font-semibold text-3xl">
+                          <h6 className="text-black font-semibold text-2xl">
                             {item.title}
                           </h6>
                           <p className="text-[#2e2d2c] font-medium text-sm">
