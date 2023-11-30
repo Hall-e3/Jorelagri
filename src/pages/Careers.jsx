@@ -19,7 +19,7 @@ export default function Careers() {
           <picture>
             <img
               src={image2}
-              alt="image"
+              alt="image2"
               className="w-full h-full bg-contain"
             />
           </picture>
@@ -94,7 +94,7 @@ export default function Careers() {
             <div className="pr-20">
               <h3 className="text-7xl flex flex-col font-semibold text-[#00b2e7] leading-tight pr-30">
                 Entrepreneurial
-                <span className="text-[#ff5baf;]">Agile</span>
+                <span className="text-[#ff5baf]">Agile</span>
                 <span className="text-[#8e75f8]">Resourceful</span>
                 <span className="text-[#ffc400]">Collaborative</span>
                 <span className="text-[#00a865]">Sustainable</span>

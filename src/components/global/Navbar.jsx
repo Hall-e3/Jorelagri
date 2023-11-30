@@ -10,7 +10,7 @@ const routes = [
   },
   {
     id: 2,
-    link: "/services",
+    link: "/products-services",
     name: "Products & Services",
   },
   {
