@@ -7,6 +7,8 @@ import FetchLoading from "./loaders/FetchLoading";
 import Footer from "./global/Footer";
 import SecondaryFooter from "./global/SecondaryFooter";
 import ServiceProducts from "./global/ServiceProducts";
+import Navbar from "./global/Navbar";
+import Hero from "./global/Hero";
 export {
   Loader,
   Spinner,
@@ -17,4 +19,6 @@ export {
   Footer,
   SecondaryFooter,
   ServiceProducts,
+  Navbar,
+  Hero,
 };

@@ -1,35 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  animal_feed,
   card_overlay,
-  edible_oils_cutout,
+  careers_banner,
   featured1,
   featured2,
   featured3,
   featured4,
-  footer_logo,
-  head_logo,
-  hover_cfs,
-  hover_cotton,
-  hover_edibleoils,
-  hover_freight,
-  hover_grains,
-  hover_rice,
-  hover_rubber,
-  hover_sgrains,
-  hover_wood,
-  linkedin,
+  image1,
   metric_icon1,
   metric_icon2,
   metric_icon3,
   metric_icon4,
-  talk,
-  twitter,
-  wood_cutout,
 } from "../constants";
 import {
   Button,
   Footer,
+  Hero,
+  Navbar,
   SecondaryFooter,
   ServiceProducts,
 } from "../components";
@@ -38,31 +25,9 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full border-t-orange-800">
-      <div className="w-full bg-secondary_orange h-20">
-        <div className="max-w-[1580px] mx-auto h-full">
-          <div className="h-full flex items-center justify-between gap-8">
-            <div className="flex-1 flex items-center gap-3">
-              <img src={head_logo} alt="head_logo" className="h-13" />
-            </div>
-            <div className="flex-1 flex items-center justify-between gap-10">
-              <h4 className="font-bold hover:text-white transition cursor-pointer">
-                About Us
-              </h4>
-              <h4 className="font-bold hover:text-white transition cursor-pointer">
-                Products & Services
-              </h4>
-              <h4 className="font-bold hover:text-white transition cursor-pointer">
-                News
-              </h4>
-              <h4 className="font-bold hover:text-white transition cursor-pointer">
-                Careers
-              </h4>
-            </div>
-            <div className="flex-1"></div>
-          </div>
-        </div>
-      </div>
+    <div className="h-screen w-full border-t-[#ff7000]-800">
+      <Navbar />
+      <Hero />
       <div className="pt-30 pb-5 bg-[#2e2d2c]">
         <div className="max-w-[1580px] mx-auto">
           <div className="grid grid-cols-2 gap-40">

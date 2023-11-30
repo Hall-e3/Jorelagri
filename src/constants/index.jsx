@@ -5,6 +5,7 @@ const talk = require("../assets/images/talk-to-us-icon.png");
 const careers_banner = require("../assets/images/careers-banner-b.png");
 const featured1 = require("../assets/images/featured-news-thumbnail.jpg");
 const featured2 = require("../assets/images/cotton-gin-cdi-thumbnail.jpg");
+const featured5 = require("../assets/images/idrw-2023-thumbnail.jpg");
 const featured3 = require("../assets/images/nutrifoods-support-akosombo-thumbnail.jpg");
 const featured4 = require("../assets/images/reduce-crop-loss-thumbnail.jpg");
 const linkedin = require("../assets/images/linkedin.svg");
@@ -31,6 +32,17 @@ const metric_icon2 = require("../assets/images/metric-icon2.webp");
 const metric_icon3 = require("../assets/images/metric-icon3.webp");
 const metric_icon4 = require("../assets/images/metric-icon4.webp");
 const metric_icon1 = require("../assets/images/metric-icon1.webp");
+const image7 = require("../assets/images/clean-man-banner-mob-pic.webp");
+const image6 = require("../assets/images/clean-man-banner-a.webp");
+const image5 = require("../assets/images/clean-man-banner-b.webp");
+const image4 = require("../assets/images/food-waste-banner-a.webp");
+const image3 = require("../assets/images/food-waste-banner-b.webp");
+const image2 = require("../assets/images/food-waste-banner-mob-pic.webp");
+const image1 = require("../assets/images/idrw-banner-mobile.webp");
+const image8 = require("../assets/images/bicycles-peru-a.webp");
+const image9 = require("../assets/images/bicycles-peru-b.webp");
+const image10 = require("../assets/images/bicycles-peru-mob-pic.webp");
+
 export {
   hover_side,
   head_logo,
@@ -43,6 +55,7 @@ export {
   featured2,
   featured3,
   featured4,
+  featured5,
   large_rice,
   hover_edibleoils,
   hover_freight,
@@ -65,4 +78,14 @@ export {
   metric_icon2,
   metric_icon3,
   metric_icon4,
+  image1,
+  image10,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
 };
