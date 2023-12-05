@@ -31,14 +31,13 @@ const routes = [
 ];
 
 export default function Navbar() {
-  const [hoveredLinkId, setHoveredLinkId] = useState(0);
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [woods, setWoods] = useState(false);
   const [about, setAbout] = useState(false);
-  const [sustainability, setSustainability] = useState(false);
   const [drop, setDrop] = useState(false);
-
   const [show, setShow] = useState(false);
+  const [hoveredLinkId, setHoveredLinkId] = useState(0);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [sustainability, setSustainability] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -68,7 +67,13 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="w-full bg-[#ff7000] h-20">
+      <div
+        className={`w-full  h-20 p-4 lg:py-6 ${
+          show
+            ? "fixed top-0 border-b border-stroke  bg-[#2e2d2c] drop-shadow-lg duration-700 z-99"
+            : " bg-[#ff7000]"
+        }`}
+      >
         <div className="max-w-[1580px] mx-auto h-full px-10 md:px-0">
           <div className="h-full flex items-center justify-between gap-8">
             <div className="flex-1 flex items-center gap-3">
