@@ -7,13 +7,13 @@ export default function Input({
   placeholder,
   value,
   onChange,
-  icon,
+  styles,
   disabled,
   onFocus,
 }) {
   return (
-    <div className="flex items-center space-x-3">
-      <label className="block mb-2 text-[13px] 2xl:text-[14px] font-semibold text-gray-900 dark:text-white">
+    <div className={`${styles}`}>
+      <label className="block mb-2 text-[1rem] 2xl:text-[14px] font-semibold text-[#2e2d2c]">
         {label}
       </label>
 

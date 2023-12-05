@@ -68,9 +68,9 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`w-full  h-20 p-4 lg:py-6 ${
+        className={`w-full py-5 ${
           show
-            ? "fixed top-0 border-b border-stroke  bg-[#2e2d2c] drop-shadow-lg duration-700 z-99"
+            ? "fixed top-0 border-b-2 border-stroke  bg-[#2e2d2c] drop-shadow-lg duration-700 z-99"
             : " bg-[#ff7000]"
         }`}
       >
