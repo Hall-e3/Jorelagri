@@ -213,7 +213,7 @@ export default function Home() {
               <div>
                 <Button
                   text="Discover more"
-                  buttonStyle=" py-3.5 px-15 bg-[#2e2d2c] text-white text-[.875rem] md:text-md font-semibold rounded-sm"
+                  buttonStyle="py-3.5 px-15 bg-[#2e2d2c] text-white text-[.875rem] md:text-md font-semibold rounded-sm"
                 />
               </div>
             </div>
@@ -317,7 +317,7 @@ export default function Home() {
           <div className="text-center">
             <Button
               text="Discover more"
-              buttonStyle=" py-4 px-20 bg-[#2e2d2c] text-white text-md font-semibold rounded-sm"
+              buttonStyle=" py-3.5 md:py-4 px-15 md:px-20 bg-[#2e2d2c] text-white text-[.875rem] md:text-md font-semibold rounded-sm"
             />
           </div>
         </div>

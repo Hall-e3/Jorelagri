@@ -22,7 +22,7 @@ export default function SecondaryFooter() {
           </p>
           <Button
             text="Contact Us"
-            buttonStyle=" py-4 px-15 md:px-30 bg-white text-black text-[.875rem] md:text-md font-semibold rounded-sm"
+            buttonStyle="py-3.5 md:py-4 px-15 md:px-30 bg-white text-black text-[.875rem] md:text-md font-semibold rounded-sm"
           />
         </div>
       </div>
