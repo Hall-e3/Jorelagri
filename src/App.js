@@ -10,14 +10,16 @@ const Home = Supensing(lazy(() => import("./pages/Home")));
 
 function App() {
   return (
-    <Routes>
-      <Route index element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/news" element={<News />} />
-      <Route path="/careers" element={<Careers />} />
-      <Route path="/products-services" element={<Products />} />
-      <Route path="/about" element={<About />} />
-    </Routes>
+    <div>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/products-services" element={<Products />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </div>
   );
 }
 
