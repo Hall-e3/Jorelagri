@@ -1,8 +1,14 @@
 import React from "react";
 import { Button, Footer, FreedomComponent, Navbar, SecondaryFooter } from "../components";
 import { cotton_american, image2, laboratory } from "../constants";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 export default function Careers() {
+  const [one, setOne] = React.useState(false);
+  const [two, setTwo] = React.useState(false);
+  const [three, setThree] = React.useState(false);
+  const [four, setFour] = React.useState(false);
+
   return (
     <div className="h-screen w-full">
       <Navbar />
@@ -81,7 +87,7 @@ export default function Careers() {
       </div>
       <div className="py-20 px-10 md:px-0">
         <div className="max-w-[1580px] mx-auto">
-          <div className="flex flex-col space-y-5">
+          <div className="flex flex-col space-y-8 md:space-y-5">
             <div className="flex flex-col space-y-14">
               <div>
                 <h4 className="text-[2rem] leading-9 md:text-5xl font-semibold text-black">Work Streams</h4>
@@ -91,6 +97,125 @@ export default function Careers() {
                   We are involved in many different types of activities, locations, and products, which gives you a breadth of choice and variety of challenge.
                   Below are just some of the work streams in Olam Agri.
                 </p>
+              </div>
+            </div>
+            <div className="flex md:hidden flex-col space-y-4">
+              <div
+                onClick={() => setOne(!one)}
+                className={`p-[1.25rem] ${
+                  one ? "bg-[#2e2d2c] text-white" : "bg-[#ff7000] text-[#2e2d2c]"
+                }  rounded-tr-[1.875rem] rounded-bl-[1.875rem] cursor-pointer transition-all duration-[800ms]`}>
+                {!one && (
+                  <div className="flex flex-row items-center justify-between">
+                    <h4 className="text-[1.5625rem] text-[#2e2d2c] leading-tight font-semibold">Supply Chain Management</h4>
+                    <ChevronDownIcon className="w-7 h-7" />
+                  </div>
+                )}
+                {one && (
+                  <div className="flex flex-col space-y-6">
+                    <div className="flex flex-row items-center justify-between">
+                      <h2 className="text-[1.5625rem] text-white leading-tight font-semibold">Supply Chain Management</h2>
+                      <ChevronDownIcon className="w-7 h-7" />
+                    </div>
+
+                    <p className="text-[1rem] font-normal leading-snug">
+                      Our well-established network of farmers and cooperatives, and our skills in logistics and risk management enable us to secure supplies and
+                      deliver them to our customers consistently. Our technologies enhance product traceability, adding value for our customers.
+                    </p>
+                    <div>
+                      <Button text="Explore Opportunities" buttonStyle=" py-3 px-8 bg-white text-black text-md font-semibold rounded-sm" />
+                    </div>
+                    <img src={cotton_american} alt="cotton" className="h-full w-full bg-cover rounded-tr-[1.875rem] rounded-bl-[1.875rem]" />
+                  </div>
+                )}
+              </div>
+              <div
+                onClick={() => setTwo(!two)}
+                className={`p-[1.25rem] ${
+                  two ? "bg-[#2e2d2c] text-white" : "bg-[#ff7000] text-[#2e2d2c]"
+                }  rounded-tr-[1.875rem] rounded-bl-[1.875rem] cursor-pointer transition-all duration-[800ms]`}>
+                {!two && (
+                  <div className="flex flex-row items-center justify-between">
+                    <h4 className="text-[1.5625rem] text-[#2e2d2c] leading-tight font-semibold">Trading</h4>
+                    <ChevronDownIcon className="w-7 h-7" />
+                  </div>
+                )}
+                {two && (
+                  <div className="flex flex-col space-y-6">
+                    <div className="flex flex-row items-center justify-between">
+                      <h2 className="text-[1.5625rem] text-white leading-tight font-semibold">Trading</h2>
+                      <ChevronDownIcon className="w-7 h-7" />
+                    </div>
+                    <p className="text-[1rem] font-normal leading-snug">
+                      Our traders analyse proprietary information on supply and demand. Our rigorous research and analysis is honed by quantitative tools and
+                      techniques to offer unique industry insight.
+                    </p>
+                    <div>
+                      <Button text="Explore Opportunities" buttonStyle=" py-3 px-8 bg-white text-black text-md font-semibold rounded-sm" />
+                    </div>
+                    <img src={cotton_american} alt="cotton" className="h-full w-full bg-cover rounded-tr-[1.875rem] rounded-bl-[1.875rem]" />
+                  </div>
+                )}
+              </div>
+              <div
+                onClick={() => setThree(!three)}
+                className={`p-[1.25rem] ${
+                  three ? "bg-[#2e2d2c] text-white" : "bg-[#ff7000] text-[#2e2d2c]"
+                }  rounded-tr-[1.875rem] rounded-bl-[1.875rem] cursor-pointer transition-all duration-[800ms]`}>
+                {!three && (
+                  <div className="flex flex-row items-center justify-between">
+                    <h4 className="text-[1.5625rem] text-[#2e2d2c] leading-tight font-semibold">Plantations & Farming</h4>
+                    <ChevronDownIcon className="w-7 h-7" />
+                  </div>
+                )}
+                {three && (
+                  <div className="flex flex-col space-y-6">
+                    <div className="flex flex-row items-center justify-between">
+                      <h2 className="text-[1.5625rem] text-white leading-tight font-semibold">Plantations & Farming</h2>
+                      <ChevronDownIcon className="w-7 h-7" />
+                    </div>
+
+                    <p className="text-[1rem] font-normal leading-snug">
+                      We grow a range of crops, and share learnings from one to another, driving efficiencies for us and our customers. We understand the
+                      pressures of farming and work on the ground with small-scale producers to increase volumes. We stimulate opportunity with communities
+                      local to our operations through smallholder ‘outgrower’ programmes.
+                    </p>
+                    <div>
+                      <Button text="Explore Opportunities" buttonStyle=" py-3 px-8 bg-white text-black text-md font-semibold rounded-sm" />
+                    </div>
+                    <img src={cotton_american} alt="cotton" className="h-full w-full bg-cover rounded-tr-[1.875rem] rounded-bl-[1.875rem]" />
+                  </div>
+                )}
+              </div>
+              <div
+                onClick={() => setFour(!four)}
+                className={`p-[1.25rem] ${
+                  four ? "bg-[#2e2d2c] text-white" : "bg-[#ff7000] text-[#2e2d2c]"
+                }  rounded-tr-[1.875rem] rounded-bl-[1.875rem] cursor-pointer transition-all duration-[800ms]`}>
+                {!four && (
+                  <div className="flex flex-row items-center justify-between">
+                    <h4 className="text-[1.5625rem] text-[#2e2d2c] leading-tight font-semibold">Manufacturing, Innovation & Procurement</h4>
+                    <ChevronDownIcon className="w-7 h-7" />
+                  </div>
+                )}
+                {four && (
+                  <div className="flex flex-col space-y-6">
+                    <div className="flex flex-row items-center justify-between">
+                      <h2 className="text-[1.5625rem] text-white leading-tight font-semibold">Manufacturing, Innovation & Procurement</h2>
+                      <ChevronDownIcon className="w-7 h-7" />
+                    </div>
+
+                    <p className="text-[1rem] font-normal leading-snug">
+                      Our manufacturing team is responsible for health, safety, quality, and food safety across our business. They ensure we comply with all
+                      local laws and meet our environment, social and ethical standards, as well as identifying efficiencies and opportunities to improve our
+                      processes.
+                    </p>
+                    <div>
+                      <Button text="Explore Opportunities" buttonStyle=" py-3 px-8 bg-white text-black text-md font-semibold rounded-sm" />
+                    </div>
+                    <img src={cotton_american} alt="cotton" className="h-full w-full bg-cover rounded-tr-[1.875rem] rounded-bl-[1.875rem]" />
+                  </div>
+                )}
               </div>
             </div>
 
@@ -121,7 +246,7 @@ export default function Careers() {
           </div>
         </div>
       </div>
-      <div className="py-20 px-10 md:px-0">
+      <div className="pt-0 pb-15 md:pt-0 md:pb-0 md:py-20 px-10 md:px-0">
         <div className="max-w-[1580px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-9 md:gap-0">
             <div className="flex flex-col justify-center">
@@ -131,7 +256,9 @@ export default function Careers() {
             </div>
 
             <div className="flex flex-col space-y-6 justify-center md:pl-30">
-              <h4 className="text-[#2e2d2c] text-[2rem] leading-9 md:text-5xl font-medium md:leading-tight">What's your next step?</h4>
+              <h4 className="text-[#2e2d2c] text-[2rem] leading-9 md:text-5xl font-medium md:leading-tight">
+                What's <span className="text-light-blue-500">your</span> next step?
+              </h4>
               <p className="text-[1rem] md:text-xl font-light leading-snug md:leading-1 text-[#2e2d2c]">
                 Whether you’re an entrepreneur, agricultural expert, trader, accountant, food scientist, or sales and marketing professional, a world of
                 opportunity awaits.
@@ -140,7 +267,7 @@ export default function Careers() {
                 Click below to see all opportunities within the Olam Group.
               </p>
               <div>
-                <Button text="Discover opportunities" buttonStyle="py-3 px-6 md:py-3.5 md:px-10 bg-[#000000] text-white text-md font-semibold rounded-sm" />
+                <Button text="Discover opportunities" buttonStyle="py-2.5 px-6 md:py-3.5 md:px-10 bg-[#000000] text-white text-md font-semibold rounded-sm" />
               </div>
             </div>
           </div>
