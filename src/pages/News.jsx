@@ -95,8 +95,8 @@ export default function News() {
   const [active, setActive] = React.useState(0);
   console.log(active);
   const handleChange = (evt) => {
-   const selectedValue = parseInt(evt.target.value, 10);
-   setActive(selectedValue);
+    const selectedValue = parseInt(evt.target.value, 10);
+    setActive(selectedValue);
   };
 
   return (
@@ -163,10 +163,13 @@ export default function News() {
                   <p className="text-[1rem] font-semibold">Show:</p>
                   <div className="w-full h-12 flex flex-row items-center border border-[#2e2d2c] rounded-md">
                     <select className=" h-full w-full outline-none rounded-md px-2" value={active} name="news" id="news" onChange={handleChange}>
+                      <option></option>
                       {downlinks.map((link) => (
-                        <option key={link.id} value={link.id}>
-                          {link.title}
-                        </option>
+                        <>
+                          <option key={link.id} value={link.id}>
+                            {link.title}
+                          </option>
+                        </>
                       ))}
                     </select>
                   </div>
