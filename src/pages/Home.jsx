@@ -223,7 +223,7 @@ export default function Home() {
       <div className="relative py-20">
         <div className="flex flex-col justify-center  mx-auto space-y-15">
           <div>
-            <h3 className="text-[2rem] font-semibold md:text-4xl text-black">
+            <h3 className="text-[2rem] font-semibold md:pl-40 md:text-4xl text-black">
               Latest News
             </h3>
           </div>

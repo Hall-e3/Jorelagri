@@ -66,9 +66,9 @@ export default function Navbar() {
       <div className={`w-full py-5 ${show ? "fixed top-0 border-b-2 border-stroke  bg-[#2e2d2c] drop-shadow-lg duration-700 z-99" : " bg-[#ff7000]"}`}>
         <div className="max-w-[1580px] mx-auto h-full px-10 md:px-0">
           <div className="h-full flex items-center justify-between gap-8">
-            <div className="flex-1 flex items-center gap-3">
+            <Link to="/" className="flex-1 flex items-center gap-3">
               <img src={head_logo} alt="head_logo" className="h-10 md:h-13" />
-            </div>
+            </Link>
             <div className="hidden md:flex md:flex-1 items-center justify-between gap-10">
               {routes.map((route) => (
                 <Link key={route.id} to={`${route.link}`} onMouseEnter={() => setHoveredLinkId(route.id)} onMouseLeave={() => setHoveredLinkId(null)}>
