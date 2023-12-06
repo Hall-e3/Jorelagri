@@ -3,7 +3,6 @@ import {
   Button,
   CareerComponent,
   Footer,
-  FreedomComponent,
   Navbar,
   SecondaryFooter,
   ServiceProducts,
@@ -14,7 +13,6 @@ import {
   featured5,
   grow_source,
   image3,
-  laboratory,
   our_organization,
 } from "../constants";
 
