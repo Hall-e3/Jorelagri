@@ -110,7 +110,7 @@ export default function Products() {
         <div className="max-w-[1580px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2  gap-10 md:gap-20">
             <div>
-              <h3 className="text-[2rem] md:text-5xl font-semibold text-white leading-tight">
+              <h3 className="text-[2rem] md:text-5xl font-semibold text-white">
                 We offer our customers a <span className="text-[#ff7000]"> deep understanding</span> of market needs, built through our on-the-ground presence
                 in Asia and Africa over the last 30 years.
               </h3>
@@ -139,12 +139,12 @@ export default function Products() {
                 <div
                   key={product.id}
                   id={product.color}
-                  className="relative flex group flex-col h-[12.5rem] md:h-[45vh] w-[100%] justify-between rounded-tr-[1.875rem] rounded-bl-[1.875rem] p-[1.25rem] md:pr-0 md:pt-0 md:pb-0 md:p-8  bg-[#2e2d2c] border border-[#ff62ab] transition-all duration-300 ease-in-out transform">
+                  className="relative flex group flex-col h-[12.5rem] md:h-[45vh] w-[100%] justify-between rounded-tr-[1.875rem] rounded-bl-[1.875rem] p-[1.25rem] md:pr-0 md:pt-8 md:pb-8  bg-[#2e2d2c] border border-[#ff62ab] transition-all duration-300 ease-in-out transform">
                   <div className="flex flex-col space-y-6">
                     <h4 className="text-white text-[1.125rem] font-medium md:text-4xl leading-tight">{product.title}</h4>
                     <p className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-base font-thin">{product.subtitle}</p>
                   </div>
-                  <div className="absolute right-[.375rem] bottom-[.625rem] md:flex md:justify-end">
+                  <div className="absolute right-[.375rem] bottom-[.625rem] md:relative md:right-4 md:bottom-0 md:flex md:justify-end">
                     <img
                       src={product.image}
                       alt={product.title}

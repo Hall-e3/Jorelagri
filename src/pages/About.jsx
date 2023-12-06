@@ -165,7 +165,7 @@ export default function About() {
                 )}
               </div>
             </div>
-            <div className="hidden">
+            <div className="hidden md:block">
               <div className="flex items-center space-x-2">
                 <p className="px-4 py-4.5 rounded-tr-[25px] bg-white text-[#2e2d2c] font-medium text-base">We Grow & Source</p>
                 <p className="px-6 py-4.5 rounded-tr-[25px] bg-[#ff7000] text-[#2e2d2c] font-medium text-base">We Process & Manufacture</p>
@@ -191,18 +191,18 @@ export default function About() {
       </div>
       <ServiceProducts />
       <CareerComponent />
-      <div className="pb-5 pt-125 md:pb-0 md:py-20 bg-white">
+      <div className="pb-5 pt-125  mb:pt-0 md:pt-20 md:pb-20 bg-white">
         <div className="max-w-[1580px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 relative">
             <div className="flex flex-col items-center space-y-5 absolute top-80 left-[-5%]">
-              <div className="p-1.5 border-2 rounded-full border-white" />
-              <div className="p-1.5 border-2 rounded-full border-white" />
-              <div className="p-1.5 border-2 rounded-full border-white" />
+              <div className="p-1.5 border-2 rounded-full border-black" />
+              <div className="p-1.5 border-2 rounded-full border-black" />
+              <div className="p-1.5 border-2 rounded-full border-black" />
             </div>
             <div>
               <img src={our_organization} alt="work" className="h-full w-full md:rounded-bl-[60px] md:rounded-tr-[60px]" />
             </div>
-            <div className="flex flex-col items-center mb-[-1.875rem]  py-[1.5625rem]  px-[1.25rem] justify-start md:justify-center h-[30.1875rem] max-w-[19.6875rem] bg-[#2e2d2c] md:bg-white shadow-lg rounded-bl-[1.875rem] rounded-tr-[1.875rem] absolute bottom-100 left-10 md:bottom-0 md:left-0 w-full md:top-40 md:right-0 z-1">
+            <div className="flex flex-col items-center mb-[-1.875rem]  py-[1.5625rem]  px-[1.25rem] md:px-15 justify-start md:justify-center h-[30.1875rem] max-w-[19.6875rem] bg-[#2e2d2c] md:bg-white shadow-lg md:max-w-[55%] md:w-[100%] rounded-bl-[1.875rem] rounded-tr-[1.875rem] absolute bottom-100 left-10 md:bottom-0 md:left-[45%] w-full md:top-40 md:right-0 z-1">
               <div className="flex flex-col space-y-5">
                 <h4 className="text-[2rem] md:text-5xl font-semibold text-white md:text-[#2e2d2c] leading-9 md:leading-none">
                   Olam Group's <span className="text-[#00b2e7]">Re-organisation</span>

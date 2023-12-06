@@ -29,7 +29,7 @@ export default function Careers() {
       </div>
       <div className="py-20 bg-[#2e2d2c] px-[30px] md:px-0">
         <div className="max-w-[1580px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 space-y-10 md:gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 space-y-10 md:space-y-0 md:gap-20">
             <div>
               <h3 className="text-[2rem] md:text-5xl font-semibold text-white leading-tight">
                 Our challenge to you is to
@@ -52,7 +52,7 @@ export default function Careers() {
         </div>
       </div>
       <FreedomComponent />
-      <div className="pt-15 md:pt-0 md:py-30 px-10 md:px-0">
+      <div className="pt-15 md:pt-30 md:py-30 px-10 md:px-0">
         <div className="max-w-[1580px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
             <div className="pr-20">
@@ -219,7 +219,7 @@ export default function Careers() {
               </div>
             </div>
 
-            <div className="hidden">
+            <div className="hidden md:block">
               <div className="flex items-center space-x-2">
                 <p className="px-4 py-4.5 rounded-tr-[25px] bg-[#000000] text-white font-medium text-base">Supply Chain Management</p>
                 <p className="px-6 py-4.5 rounded-tr-[25px] bg-[#ff7000] text-[#2e2d2c] font-medium text-base">Trading</p>
@@ -246,7 +246,7 @@ export default function Careers() {
           </div>
         </div>
       </div>
-      <div className="pt-0 pb-15 md:pt-0 md:pb-0 md:py-20 px-10 md:px-0">
+      <div className="pt-0 pb-15 md:pt-10 md:pb-20 px-10 md:px-0">
         <div className="max-w-[1580px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-9 md:gap-0">
             <div className="flex flex-col justify-center">
