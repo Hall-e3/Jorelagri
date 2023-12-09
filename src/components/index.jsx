@@ -12,6 +12,8 @@ import Hero from "./global/Hero";
 import Input from "./primitives/Input";
 import CareerComponent from "./global/CareerComponent";
 import FreedomComponent from "./global/FreedomComponent";
+import LinkedIn from "./global/LinkedIn";
+import Twitter from "./global/Twitter";
 export {
   Loader,
   Spinner,
@@ -27,4 +29,6 @@ export {
   Hero,
   CareerComponent,
   FreedomComponent,
+  Twitter,
+  LinkedIn
 };

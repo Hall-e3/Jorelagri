@@ -23,7 +23,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full border-t-[#ff7000]-800">
+    <div className="h-screen w-full">
       <Navbar />
       <Hero />
       <div className="py-10 md:pt-30 pb-5 bg-[#2e2d2c]">

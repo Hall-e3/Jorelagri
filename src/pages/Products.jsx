@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, Navbar, SecondaryFooter } from "../components";
+import { Button, Footer, Navbar, SecondaryFooter } from "../components";
 import {
   animal_feed,
   hover_cfs,
@@ -13,6 +13,7 @@ import {
   hover_wood,
   image7
 } from "../constants";
+import { useNavigate } from "react-router-dom";
 
 const products = [
   {
@@ -88,6 +89,7 @@ const products = [
 ];
 
 export default function Products() {
+  const navigate = useNavigate();
   return (
     <div className="h-screen w-full">
       <Navbar />
@@ -98,6 +100,9 @@ export default function Products() {
               Delivering
               <span className="text-black">Value </span>for Customers
             </h4>
+            <a href="https://jorei.onrender.com">
+              <Button text="Product Customization" buttonStyle=" py-3.5 px-15 bg-white text-black text-[.875rem] md:text-md font-semibold rounded-sm" />
+            </a>
           </div>
         </div>
         <div className="flex-1">
