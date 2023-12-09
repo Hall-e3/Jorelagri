@@ -13,7 +13,6 @@ import {
   hover_wood,
   image7
 } from "../constants";
-import { useNavigate } from "react-router-dom";
 
 const products = [
   {
@@ -89,7 +88,7 @@ const products = [
 ];
 
 export default function Products() {
-  const navigate = useNavigate();
+
   return (
     <div className="h-screen w-full">
       <Navbar />

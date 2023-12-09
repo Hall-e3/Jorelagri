@@ -142,9 +142,9 @@ export default function News() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <h3 className="text-[1.5625rem] md:text-5xl font-semibold text-black">All News</h3>
               <form className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-20">
-                <div className="flex space-x-6 md:space-x-0 items-center">
+                <div className="flex space-x-6 md:space-x-5 items-center">
                   <Input styles="flex flex-col items-start md:space-x-3 md:items-center md:flex-row" label="From" type="date" name="bday" />
-                  <Input label="To" type="date" name="bday" />
+                  <Input styles="flex flex-col items-start md:space-x-3 md:items-center md:flex-row" label="To" type="date" name="bday" />
                 </div>
                 <div className="hidden md:flex items-center space-x-2 border-b-2 border-b-[#2e2d2c] pb-2">
                   <p>Search:</p>
